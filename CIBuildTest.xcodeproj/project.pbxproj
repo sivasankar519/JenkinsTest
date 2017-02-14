@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					F6BB78561E53659C00A01571 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B8W6C29XUS;
 					};
 					F6BB786A1E53659C00A01571 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,9 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CIBuildTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sivasankar.CIBuildTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.home.Tech360-QA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,9 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CIBuildTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sivasankar.CIBuildTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.home.Tech360-QA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
