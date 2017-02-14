@@ -11,6 +11,8 @@ import XCTest
 
 class CIBuildTestTests: XCTestCase {
     
+    let view = ViewController()
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -24,6 +26,14 @@ class CIBuildTestTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        XCTAssertTrue(view.view.backgroundColor == UIColor.whiteColor())
+        
+        view.clickAction()
+        
+        XCTAssertEqual(view.currentColor, view.view.backgroundColor)
+        XCTAssertFalse(view.view.backgroundColor == UIColor.whiteColor())
+        
     }
     
     func testPerformanceExample() {
